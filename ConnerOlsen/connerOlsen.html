@@ -27,6 +27,19 @@
       .bold{
         font-weight:  bold;
       }
+
+      #transition {
+          width: 150px;
+          height: 50px;
+          background: teal
+          transition: width/height 2s;
+      }
+
+      #transition:hover {
+          width/height: 300px;
+      }
+
+
       </style>
       <script>
       
@@ -40,7 +53,9 @@
     <p>Thiss will be a paragraph and have space above and below it. </p>
     This is some text
     <br>
-    This is text after break
+    <div class="bold">
+        This is text after break
+    </div>
     <br>
     <br>
     Now heres a link
