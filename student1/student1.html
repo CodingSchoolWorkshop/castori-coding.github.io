@@ -26,15 +26,16 @@
         font-weight: bold;
       }
       
-      #transition {
+      .transition {
         width: 150px;
         height: 50px;
         background: teal;
-        transition: width/height 2s;
+        transition: 0.3s;
+        opacity: 0.6;
       }
       
-      #transition:hover {
-        width/height: 300px;
+      .transition:hover {
+        opacity: 1;
       }
       
     </style>
@@ -49,7 +50,7 @@
     This is some text!
     <br>
     
-    <div id="transition">Transition time!!!!!</div>
+    <div class="transition">Transition time!!!!!</div>
     
     <div class="bold">This is text after a break line !</div>
     <br>
